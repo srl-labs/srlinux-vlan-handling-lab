@@ -1,0 +1,38 @@
+name: vlan
+
+topology:
+  nodes:
+    srl1:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux:23.10.1
+      startup-config: configs/srl1.cfg
+      binds:
+        - configs/srl1.cfg:/tmp/tets.cfg
+
+    srl2:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux:23.10.1
+      startup-config: configs/srl1.cfg
+      binds:
+        - configs/srl2.cfg:/tmp/tets.cfg
+
+    client1:
+      kind: linux
+      image: ghcr.io/srl-labs/alpine
+      binds:
+        - configs/client.sh:/tmp/config.sh
+      exec:
+        - "ash -c '/tmp/config.sh 1'"
+
+    client2:
+      kind: linux
+      image: ghcr.io/srl-labs/alpine
+      binds:
+        - configs/client.sh:/tmp/config.sh
+      exec:
+        - "ash -c '/tmp/config.sh 2'"
+
+  links:
+    - endpoints: [client1:eth1, srl1:e1-1]
+    - endpoints: [srl1:e1-2, srl2:e1-2]
+    - endpoints: [srl2:e1-1, client2:eth1]

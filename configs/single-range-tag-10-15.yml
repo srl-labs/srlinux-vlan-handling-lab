@@ -1,0 +1,14 @@
+---
+- name: ethernet-1/1
+  admin-state: enable
+  vlan-tagging: true
+  subinterface:
+    - index: 0
+      type: bridged
+      admin-state: enable
+      vlan:
+        encap:
+          single-tagged-range:
+            low-vlan-id:
+              - range-low-vlan-id: 10
+                high-vlan-id: 15

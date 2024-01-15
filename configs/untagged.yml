@@ -1,0 +1,11 @@
+---
+- name: ethernet-1/1
+  admin-state: enable
+  vlan-tagging: true
+  subinterface:
+    - index: 0
+      type: bridged
+      admin-state: enable
+      vlan:
+        encap:
+          untagged: {}

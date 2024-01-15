@@ -9,6 +9,10 @@ gnmic="docker run --network clab --rm -t -v ${pwd}/configs:/configs ghcr.io/open
 
 MODE=$1
 
+if [ "$MODE" == "default" ]; then
+    REPLACE_FILE=configs/default.yml
+fi
+
 if [ "$MODE" == "single-tag" ]; then
     REPLACE_FILE=configs/single-tag-10.yml
 fi

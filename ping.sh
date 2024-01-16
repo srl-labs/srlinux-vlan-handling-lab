@@ -34,3 +34,8 @@ if [ "$CASE" == "all" ]; then
     ping_test 10.1.2.2 "single tag VID: 11"
     ping_test 10.1.3.2 "double tag outer VID: 12, inner VID: 13"
 fi
+
+if [-z "$CASE" ]; then
+    echo "Invalid mode. Please use one of the following modes: no-tag, single-tag-10, single-tag-11, double-tag, all"
+    exit 1
+fi

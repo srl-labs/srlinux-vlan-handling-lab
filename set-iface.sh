@@ -25,5 +25,9 @@ if [ "$MODE" == "untagged" ]; then
     REPLACE_FILE=configs/untagged.yml
 fi
 
+if [ -z "$REPLACE_FILE" ]; then
+    echo "Invalid mode. Please use one of the following modes: default, single-tag, single-range-tag, untagged"
+    exit 1
+fi
 
 $gnmic ${srl} set --replace-path /interface[name=ethernet-1/1] --replace-file ${REPLACE_FILE}

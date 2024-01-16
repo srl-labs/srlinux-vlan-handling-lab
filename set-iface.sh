@@ -17,8 +17,8 @@ if [ "$MODE" == "single-tag" ]; then
     REPLACE_FILE=configs/single-tag-10.yml
 fi
 
-if [ "$MODE" == "single-range-tag" ]; then
-    REPLACE_FILE=configs/single-range-tag-10-15.yml
+if [ "$MODE" == "single-tag-range" ]; then
+    REPLACE_FILE=configs/single-tag-range-10-15.yml
 fi
 
 if [ "$MODE" == "untagged" ]; then
@@ -26,7 +26,7 @@ if [ "$MODE" == "untagged" ]; then
 fi
 
 if [ -z "$REPLACE_FILE" ]; then
-    echo "Invalid mode. Please use one of the following modes: default, single-tag, single-range-tag, untagged"
+    echo "Invalid mode. Please use one of the following modes: default, single-tag, single-tag-range, untagged"
     exit 1
 fi
 

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T14:15:56.938Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="F18CSL4Im64AjzH6pwWP" version="22.1.20" type="github" pages="7">
+<mxfile host="Electron" modified="2024-02-15T14:12:15.149Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="WNHnGQdVHr8xf4KkAvJU" version="23.0.2" type="device" pages="7">
   <diagram name="[0] vlan" id="xj_hUvdLybhZtWC5sHic">
-    <mxGraphModel dx="2074" dy="1121" grid="0" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#4d5766" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="734" grid="0" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#4d5766" math="0" shadow="0">
       <root>
         <mxCell id="Hvadh7sFhpXeqMrMuhxV-0" />
         <mxCell id="Hvadh7sFhpXeqMrMuhxV-1" parent="Hvadh7sFhpXeqMrMuhxV-0" />
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="[1] tldr" id="tJziRCqHFudNewLzHaw2">
-    <mxGraphModel dx="2074" dy="1121" grid="0" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#4d5766" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="734" grid="0" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#4d5766" math="0" shadow="0">
       <root>
         <mxCell id="qbExKh2GQzYHgT6TWYTY-0" />
         <mxCell id="qbExKh2GQzYHgT6TWYTY-1" parent="qbExKh2GQzYHgT6TWYTY-0" />
@@ -4617,11 +4617,11 @@
     </mxGraphModel>
   </diagram>
   <diagram name="[6] at a glance" id="a70KgNy4G7cm3HsjJiRU">
-    <mxGraphModel dx="3131" dy="1246" grid="0" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#4d5766" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="734" grid="0" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#4d5766" math="0" shadow="0">
       <root>
         <mxCell id="zpTFBtpx3Ttw9W5dvEuc-0" />
         <mxCell id="zpTFBtpx3Ttw9W5dvEuc-1" parent="zpTFBtpx3Ttw9W5dvEuc-0" />
-        <mxCell id="j9gK-7_rV7YYYvxOBtXe-1" value="ethernet-1/1.10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Google Sans;fillColor=#FFFFFF;strokeColor=#98A2AE;fontColor=#4D5766;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;strokeWidth=1;arcSize=30;" parent="zpTFBtpx3Ttw9W5dvEuc-1" vertex="1">
+        <mxCell id="j9gK-7_rV7YYYvxOBtXe-1" value="ethernet-1/1.0" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Google Sans;fillColor=#FFFFFF;strokeColor=#98A2AE;fontColor=#4D5766;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;strokeWidth=1;arcSize=30;" parent="zpTFBtpx3Ttw9W5dvEuc-1" vertex="1">
           <mxGeometry x="-487" y="391" width="80" height="23" as="geometry" />
         </mxCell>
         <mxCell id="YV8rO7jL-DpNUXe-ST62-0" value="" style="group;aspect=fixed;" parent="zpTFBtpx3Ttw9W5dvEuc-1" vertex="1" connectable="0">
@@ -4762,7 +4762,7 @@
             <mxPoint x="-487" y="402.37" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CZTv09nUqkl0D66G-Kyz-1" value="ethernet-1/2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Google Sans;fillColor=#FFFFFF;strokeColor=#98A2AE;fontColor=#4D5766;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;strokeWidth=1;arcSize=30;" parent="zpTFBtpx3Ttw9W5dvEuc-1" vertex="1">
+        <mxCell id="CZTv09nUqkl0D66G-Kyz-1" value="ethernet-1/2.0" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Google Sans;fillColor=#FFFFFF;strokeColor=#98A2AE;fontColor=#4D5766;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;strokeWidth=1;arcSize=30;" parent="zpTFBtpx3Ttw9W5dvEuc-1" vertex="1">
           <mxGeometry x="-207" y="394" width="80" height="23" as="geometry" />
         </mxCell>
         <mxCell id="CZTv09nUqkl0D66G-Kyz-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Manrope;fontSize=12;fontColor=#FFFFFF;endArrow=oval;endFill=1;startArrow=oval;startFill=1;strokeColor=#DCDEE0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=3;startSize=3;" parent="zpTFBtpx3Ttw9W5dvEuc-1" edge="1">

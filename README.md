@@ -9,7 +9,7 @@ Documentation - <https://learn.srlinux.dev/blog/2024/vlans-on-sr-linux/>
 
 **[Run](https://codespaces.new/srl-labs/srlinux-vlan-handling-lab?quickstart=1) this lab in GitHub Codespaces for free**.  
 [Learn more](https://containerlab.dev/manual/codespaces) about Containerlab for Codespaces.  
-<small>Machine type: 2 vCPU / 8 GB RAM</small>
+<small>Machine type: 2 vCPU · 8 GB RAM</small>
 </div>
 
 ---

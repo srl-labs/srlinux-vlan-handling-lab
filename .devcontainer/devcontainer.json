@@ -4,7 +4,5 @@
         "cpus": 2,
         "memory": "8gb",
         "storage": "32gb"
-    },
-    "workspaceMount": "source=${localWorkspaceFolder},target=/${containerWorkspaceFolder},type=bind",
-    "workspaceFolder": "/srl-vlan-handling-lab"
+    }
 }

@@ -5,7 +5,7 @@ declare -a srl_nodes=("clab-vlan-srl1" "clab-vlan-srl1")
 pwd=$(pwd)
 
 # Save the command in a variable
-gnmic="docker run --network clab --rm -t -v ${pwd}/configs:/configs ghcr.io/openconfig/gnmic:0.34.3 --config /configs/nodes.yml"
+gnmic="docker run --network clab --rm -t -v ${pwd}/configs:/configs ghcr.io/openconfig/gnmic:0.39.1 --config /configs/nodes.yml"
 
 MODE=$1
 
